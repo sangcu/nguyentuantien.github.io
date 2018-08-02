@@ -1,0 +1,92 @@
+$blue: #0d72b9;
+$white: #fff;
+$blue-button:#0b588f;
+$blue-button-hover:#20dae7;
+$black: #0e0e0e;
+
+.padding-top-50{
+    padding-top: 50px;
+}
+.padding-top-170{
+    padding-top: 170px;
+}
+.splash-container{
+    padding: 0 100px;
+}
+.background-blue{
+    background-color: $blue;
+    
+    .splash-content{
+        h1, p{
+            color: white;
+        }
+        .button-blue{
+            text-decoration: none;
+            background-color: $blue-button;
+            padding: 10px 20px;
+            color: $white;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .button-blue:hover{
+            background-color: $blue-button-hover;
+        }        
+    }
+}
+.background-white{
+    .splash-content {
+        h2{
+            font-size: 28pt;
+        }
+        h2, h4, ul li{
+            color: $black;
+        }
+                  
+    }
+}
+
+  ul{
+      list-style-image: url(../img/tick.png);
+      padding-left: 50px;
+}
+.image-discover{
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+.content-image-discover{
+    a{
+        text-decoration: none;
+        color: $blue;
+        font-weight: bold;
+    }
+}
+.botton-footer{
+    .content{
+        padding: 0 100px;
+    }
+    background-color: $blue-button;
+    p{
+        color: $white;
+    }
+}
+
+@media (min-width: 950px) {
+    .content-image-discover{
+        margin-left: 90px;
+     
+    }
+    .image-discover{
+        float: left;
+        img{
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .pure-img-responsive-logo{
+        max-width: 70%;
+    }
+}
