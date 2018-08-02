@@ -1,8 +1,9 @@
 $blue: #0d72b9;
 $white: #fff;
 $blue-button:#0b588f;
-$blue-button-hover:#20dae7;
+$blue-button-hover:#032268;
 $black: #0e0e0e;
+$black-two: #eee;
 
 .padding-top-50{
     padding-top: 50px;
@@ -33,6 +34,8 @@ $black: #0e0e0e;
         }        
     }
 }
+
+
 .background-white{
     .splash-content {
         h2{
@@ -48,7 +51,7 @@ $black: #0e0e0e;
   ul{
       list-style-image: url(../img/tick.png);
       padding-left: 50px;
-}
+    }
 .image-discover{
     img{
         display: block;
@@ -72,6 +75,28 @@ $black: #0e0e0e;
     }
 }
 
+.pure-img-responsive-logo{
+        max-width: 100%;
+    }
+.background-black-two{
+    background-color: $black-two;
+    h2,h4{
+        color: $black;
+    }
+}
+@media (min-width: 771px) {
+   .list-content-pdp{
+        position: relative;
+
+        .content-pdp{
+            position: absolute;
+            top: 50%;
+             transform: translateY(-50%);
+        }
+
+    }
+}
+
 @media (min-width: 950px) {
     .content-image-discover{
         margin-left: 90px;
@@ -84,6 +109,7 @@ $black: #0e0e0e;
         }
     }
 }
+
 
 @media (min-width: 1000px) {
     .pure-img-responsive-logo{

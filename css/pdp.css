@@ -25,7 +25,7 @@
   display: inline-block;
 }
 .background-blue .splash-content .button-blue:hover {
-  background-color: #20dae7;
+  background-color: #032268;
 }
 
 .background-white .splash-content h2 {
@@ -61,6 +61,27 @@ ul {
   color: #fff;
 }
 
+.pure-img-responsive-logo {
+  max-width: 100%;
+}
+
+.background-black-two {
+  background-color: #eee;
+}
+.background-black-two h2, .background-black-two h4 {
+  color: #0e0e0e;
+}
+
+@media (min-width: 771px) {
+  .list-content-pdp {
+    position: relative;
+  }
+  .list-content-pdp .content-pdp {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
 @media (min-width: 950px) {
   .content-image-discover {
     margin-left: 90px;
