@@ -1,10 +1,40 @@
-$blue: #0d72b9;
+$blue: #394BCD;
 $white: #fff;
 $blue-button:#0b588f;
 $blue-button-hover:#032268;
 $black: #0e0e0e;
 $black-two: #eee;
+$container: 1001px;
 
+nav#header{
+    padding-top:20px;
+    background-color: $blue;
+    section{
+        width: $container;
+        margin: 0 auto;
+        img{
+            height: 45px;
+        }
+        .nav-item{
+            text-align: right;
+            li{
+                line-height: 45px;
+            }
+            a{
+                color: $white;
+            }
+            a:hover{
+                background-color: $blue;
+                
+
+            }
+        }
+    }
+}
+.container{
+    width: $container;
+    margin: 0 auto;
+}
 .padding-top-50{
     padding-top: 50px;
 }
