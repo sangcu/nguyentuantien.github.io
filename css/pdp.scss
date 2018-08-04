@@ -8,24 +8,67 @@ $black-two: #eee;
 $yellow:#ff794d;
 $yellow-hover: #e4420d;
 $black-footer:#25262d;
-$border:#dddee1;
-
+$border: #f6f9fc;
+nav .container{
+    width: 100%;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    p{
+        margin-bottom: 20px;
+    }
+}
 .custom-wrapper{
     background-color: $blue;
 }
-
+.blurry{
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+}
+.box-shadow{
+    -webkit-box-shadow: 0 60px 168px -20px #D4D8E2;
+    -moz-box-shadow: 0 60px 168px -20px #D4D8E2;
+    box-shadow: 0 60px 168px -20px #D4D8E2;
+}
+a.pure-menu-link {
+    font-weight: bold;
+}
 .padding-top-50{
     padding-top: 50px;
 }
 .padding-top-170{
     padding-top: 170px;
 }
-.splash-container{
-    padding: 0 100px;
+h2{
+    font-size: 28pt;
+}
+.button{
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 14px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+.button:active{
+    border-top: 3px solid #c23f14;
+    border-left: 3px solid #be370a;
 }
 .background-blue{
     background-color: $blue;
-    
+    overflow: hidden;
     .splash-content{
         position: relative;
         h1, p{
@@ -34,10 +77,10 @@ $border:#dddee1;
         .button-blue{
             text-decoration: none;
             background-color: $blue-button;
-            padding: 10px 20px;
             color: $white;
             margin-top: 20px;
             display: inline-block;
+            text-transform: uppercase;
         }
         .button-blue:hover{
             background-color: $blue-button-hover;
@@ -45,24 +88,20 @@ $border:#dddee1;
         
     }
 }
-
-
-.background-white{
-    .splash-content {
-        h2{
-            font-size: 28pt;
-        }
-        h2, h4, ul li{
-            color: $black;
-        }
-                  
+  ul.list{
+      padding-left: 50px;
+      list-style: none;
+      margin: 0;
+      li{
+        background-size: 39px 35px;
+        background-repeat: no-repeat;
+        background-image: url(../img/Rounded.svg);
+        line-height: 18pt;
+        background-position: 0 0;
+        padding: 5px 0px 30px 50px;
     }
 }
 
-  ul{
-      list-style-image: url(../img/tick.png);
-      padding-left: 50px;
-    }
 .image-discover{
     img{
         display: block;
@@ -104,6 +143,7 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
     padding: 10px 20px;
     background-color: $yellow;
     color: $white;
+    text-transform: uppercase;
 }
 .button-yellow:hover{
     background-color: $yellow-hover;
@@ -142,16 +182,6 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
         display: inherit;
     }
     
-   .list-content-pdp{
-        position: relative;
-
-        .content-pdp{
-            position: absolute;
-            top: 50%;
-             transform: translateY(-50%);
-        }
-
-    }
     img.block1{
            position: absolute;
         bottom: -6em;
@@ -190,6 +220,9 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
 }
 
 @media (min-width: 950px) {
+    .splash-container{
+        padding: 0 100px;
+    }
     .content-image-discover{
         margin-left: 90px;
         h3{
@@ -208,17 +241,12 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
 
 
 @media (min-width: 1022px) {
-     .box-shadown{
-        -webkit-box-shadow: -4px 72px 136px -59px rgba(0,0,0,0.75);
-        -moz-box-shadow: -4px 72px 136px -59px rgba(0,0,0,0.75);
-        box-shadow: -4px 72px 136px -59px rgba(0,0,0,0.75);
-    }
-
+    
     .border-top{
-        border-top: 1px solid $border;
+        border-top: 2px solid $border;
     }
     .border-right{
-        border-right: 1px solid $border;
+        border-right: 2px solid $border;
     }
     .pure-img-responsive-logo{
         max-width: 70%;
