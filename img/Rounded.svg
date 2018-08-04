@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Check Circle / Rounded</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.5,4.08333333 C13.23,4.08333333 4.08333333,13.23 4.08333333,24.5 C4.08333333,35.77 13.23,44.9166667 24.5,44.9166667 C35.77,44.9166667 44.9166667,35.77 44.9166667,24.5 C44.9166667,13.23 35.77,4.08333333 24.5,4.08333333 Z M18.9670833,33.25875 L11.6375,25.9291667 C11.2551925,25.547719 11.0403419,25.0298485 11.0403419,24.4897917 C11.0403419,23.9497348 11.2551925,23.4318644 11.6375,23.0504167 C12.43375,22.2541667 13.72,22.2541667 14.51625,23.0504167 L20.4166667,28.9304167 L34.4633333,14.88375 C35.2595833,14.0875 36.5458333,14.0875 37.3420833,14.88375 C38.1383333,15.68 38.1383333,16.96625 37.3420833,17.7625 L21.8458333,33.25875 C21.07,34.055 19.7633333,34.055 18.9670833,33.25875 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-176.000000, -3077.000000)">
+            <g id="Icon-/-Check-Circle-/-Rounded" transform="translate(172.000000, 3073.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="icon/action/check_circle_24px" fill-rule="nonzero"></g>
+                <g id="✱-/-Color-/-Icons-/-Selected-/-On-Surface-/-Inactive" mask="url(#mask-2)" fill="#7ED321" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="49" height="49"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
