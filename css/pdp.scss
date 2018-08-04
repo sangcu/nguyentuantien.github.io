@@ -35,7 +35,9 @@ nav .container{
     -moz-box-shadow: 0 60px 168px -20px #D4D8E2;
     box-shadow: 0 60px 168px -20px #D4D8E2;
 }
-
+a.pure-menu-link {
+    font-weight: bold;
+}
 .padding-top-50{
     padding-top: 50px;
 }
