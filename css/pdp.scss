@@ -12,6 +12,7 @@ $border: #f6f9fc;
 nav .container{
     width: 100%;
 }
+
 .container{
     max-width: 1160px;
     margin: 0 auto;
@@ -171,6 +172,11 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
         }
     }
 }
+@media (min-width: 767px) {
+    .menu-logo{
+        width: 100%;
+    }
+}
 @media (min-width: 771px) {
     .position-relative {
         position: relative;
@@ -178,7 +184,7 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
     }
     .position-absolute{
         position: absolute;
-        z-index: 5;
+        z-index: -12;
     }
     img.block-logo-one{
             top: 10em;
@@ -239,7 +245,11 @@ img.block1, img.block2, img.block3, img.block4,img.block-logo-one, img.block-log
 }
 
 
-
+@media (min-width: 950px) {
+    .menu-logo{
+        width: 20%;
+    }
+}
 
 @media (min-width: 1022px) {
     
