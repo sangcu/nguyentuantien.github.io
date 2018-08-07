@@ -1,10 +1,8 @@
-.pure-form{
-    input{
-        width: 100%;
-    }
-    button{
-        float: right;
-    }
+.pure-form input {
+  width: 100%;
+}
+.pure-form button {
+  float: right;
 }
 
 .progressbar {
@@ -12,6 +10,7 @@
   padding: 0;
   counter-reset: step;
 }
+
 .progressbar li {
   list-style-type: none;
   width: 25%;
@@ -21,6 +20,7 @@
   text-align: center;
   color: #7d7d7d;
 }
+
 .progressbar li:before {
   width: 30px;
   height: 30px;
@@ -34,6 +34,7 @@
   border-radius: 50%;
   background-color: white;
 }
+
 .progressbar li:after {
   width: 100%;
   height: 2px;
@@ -44,24 +45,33 @@
   left: -50%;
   z-index: -1;
 }
+
 .progressbar li:first-child:after {
   content: none;
 }
+
 .progressbar li.active {
   color: green;
 }
+
 .progressbar li.active:before {
   border-color: #55b776;
 }
+
 .progressbar li.active + li:after {
   background-color: #55b776;
 }
-.padding-botton-90{
-    padding-bottom: 90px;
+
+.padding-botton-90 {
+  padding-bottom: 90px;
 }
-.pure-button{
-    background-color: #ff7b4f;
+
+.pure-button {
+  background-color: #ff7b4f;
 }
-.pure-button:hover{
-    background-color: #f74e16;
+
+.pure-button:hover {
+  background-color: #f74e16;
 }
+
+/*# sourceMappingURL=about.css.map */
