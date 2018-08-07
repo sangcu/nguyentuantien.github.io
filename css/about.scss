@@ -1,3 +1,4 @@
+$color-process:#364bd0;
 .pure-form{
     input{
         width: 100%;
@@ -48,13 +49,13 @@
   content: none;
 }
 .progressbar li.active {
-  color: green;
+  color: #7d7d7d;
 }
 .progressbar li.active:before {
-  border-color: #55b776;
+  border-color: $color-process;
 }
 .progressbar li.active + li:after {
-  background-color: #55b776;
+  background-color: $color-process;
 }
 .padding-botton-90{
     padding-bottom: 90px;

@@ -51,15 +51,15 @@
 }
 
 .progressbar li.active {
-  color: green;
+  color: #7d7d7d;
 }
 
 .progressbar li.active:before {
-  border-color: #55b776;
+  border-color: #364bd0;
 }
 
 .progressbar li.active + li:after {
-  background-color: #55b776;
+  background-color: #364bd0;
 }
 
 .padding-botton-90 {
