@@ -3,6 +3,8 @@ $blue: #364bd0;
 $white:#fff;
 $orage:#ff7b4f;
 $black:#a8a4a4;
+$button-price-hover:#e74d1a;
+$button-register-hover:#0f28c4;
 .background-white{
         background-color: $white;
 
@@ -21,6 +23,7 @@ $black:#a8a4a4;
     float: right;
 }
 .price-list{
+    padding-bottom: 10px;
     background-color: $white;
     -webkit-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
     -moz-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
@@ -33,6 +36,7 @@ $black:#a8a4a4;
         display: inline-block;
         text-transform: uppercase;
         color: $blue;
+        font-weight: bold;
         
     }
     .second{
@@ -73,6 +77,9 @@ $black:#a8a4a4;
                 text-transform: capitalize;
                 border-radius: 5px;
               }  
+            .button-price:hover{
+                background-color: $button-price-hover;
+            }
         }
     }
    
@@ -93,6 +100,40 @@ $black:#a8a4a4;
     z-index: 9999;
 }
 
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-register{
+    background-color: $blue;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: $white;
+    border-radius: 5px;
+
+}
+.button-register:hover{
+    background-color: $button-register-hover;
+}
+.background-image{
+    background-image: url(../img/nonprofit-textute.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.position-image-asolute{
+    position: absolute;
+    z-index: 0;
+}
+.height-180{
+    height: 180px;
+}
+.padding-contact{
+    padding-top: 134px;
+}
+
 @media (min-width: 750px){
     .decorate{
         width: 100%;
@@ -102,10 +143,17 @@ $black:#a8a4a4;
         top: -138px;
         z-index: 1;
         left: -38px;
-        transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-        -webkit-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-        -moz-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-        -o-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-        -ms-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
+        transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -webkit-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -moz-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -o-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -ms-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
     }
 }
+@media (min-width: 948px){
+    .padding-contact{
+        padding-top: 0px;
+    }
+}
+
+

@@ -174,11 +174,6 @@ img.block1, img.block2, img.block3, img.block4, img.block-logo-one, img.block-lo
     display: block;
   }
 }
-@media (min-width: 767px) {
-  .menu-logo {
-    width: 100%;
-  }
-}
 @media (min-width: 771px) {
   .position-relative {
     position: relative;
@@ -249,11 +244,6 @@ img.block1, img.block2, img.block3, img.block4, img.block-logo-one, img.block-lo
   .img-banner-position .pure-img-responsive {
     position: relative;
     z-index: 5;
-  }
-}
-@media (min-width: 950px) {
-  .menu-logo {
-    width: 20%;
   }
 }
 @media (min-width: 1022px) {

@@ -18,6 +18,7 @@
 }
 
 .price-list {
+  padding-bottom: 10px;
   background-color: #fff;
   -webkit-box-shadow: 1px 2px 11px -1px #949294;
   -moz-box-shadow: 1px 2px 11px -1px #949294;
@@ -31,6 +32,7 @@
   display: inline-block;
   text-transform: uppercase;
   color: #364bd0;
+  font-weight: bold;
 }
 .price-list .second {
   font-weight: bold;
@@ -71,6 +73,9 @@
   text-transform: capitalize;
   border-radius: 5px;
 }
+.price-list .price-list-content .button-div .button-price:hover {
+  background-color: #e74d1a;
+}
 
 .back-link a {
   text-decoration: none;
@@ -89,6 +94,44 @@
   z-index: 9999;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-register {
+  background-color: #364bd0;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button-register:hover {
+  background-color: #0f28c4;
+}
+
+.background-image {
+  background-image: url(../img/nonprofit-textute.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.position-image-asolute {
+  position: absolute;
+  z-index: 0;
+}
+
+.height-180 {
+  height: 180px;
+}
+
+.padding-contact {
+  padding-top: 134px;
+}
+
 @media (min-width: 750px) {
   .decorate {
     width: 100%;
@@ -98,11 +141,16 @@
     top: -138px;
     z-index: 1;
     left: -38px;
-    transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-    -webkit-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-    -moz-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-    -o-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
-    -ms-transform: rotate(331deg) scale(1.5) skew(-10deg) translate(-9px);
+    transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+    -webkit-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+    -moz-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+    -o-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+    -ms-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+  }
+}
+@media (min-width: 948px) {
+  .padding-contact {
+    padding-top: 0px;
   }
 }
 
