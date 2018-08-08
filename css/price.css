@@ -77,18 +77,6 @@
   background-color: #e74d1a;
 }
 
-.back-link a {
-  text-decoration: none;
-}
-
-.review {
-  color: #a8a4a4;
-}
-
-.next {
-  color: #364bd0;
-}
-
 .detail-price {
   position: relative;
   z-index: 9999;
