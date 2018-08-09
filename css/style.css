@@ -409,15 +409,7 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
        margin-bottom: 5px;
         margin-left: 33px;
     }
-    /* ------------------menu change color -------------------*/
-    #decorator {
-        transform: rotate(147deg) scale(0.858) skew(-32deg) translate(44px);
-        -webkit-transform: rotate(62deg) scale(2) skew(3deg) translate(-56%,0);
-        -moz-transform: rotate(147deg) scale(0.858) skew(-32deg) translate(44px);
-        -o-transform: rotate(147deg) scale(0.858) skew(-32deg) translate(44px);
-        -ms-transform: rotate(147deg) scale(0.858) skew(-32deg) translate(44px);
-    }
-    
+   
     a.icon-drop {
         font-size: 30px;
         font-weight:  bold;
