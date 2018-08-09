@@ -4,6 +4,7 @@ $blue-button:#011ecb;
 $blue-button-two:#1f2026;
 $blue-button-hover:#032268;
 $black: #0e0e0e;
+$blue-weight:  #34495e;
 $black-two: #eee;
 $yellow:#ff794d;
 $yellow-hover: #e4420d;
@@ -17,7 +18,7 @@ $border: #f6f9fc;
     }
 }
 .review{
-    color: $black;
+    color: $blue-weight;
 }
 .next{
     color: $blue;
@@ -134,7 +135,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: $blue-weight;
     line-height: 33pt;
 }
 .small{

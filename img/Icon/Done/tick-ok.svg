@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Done / Rounded</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.6333333,19.2185306 L6.40416667,14.989364 C6.18080182,14.7632268 5.87618533,14.6359485 5.55833333,14.6359485 C5.24048133,14.6359485 4.93586485,14.7632268 4.7125,14.989364 C4.24125,15.460614 4.24125,16.2097806 4.7125,16.6810306 L9.77541667,21.7439473 C10.2466667,22.2151973 11.0079167,22.2151973 11.4791667,21.7439473 L24.2875,8.9476973 C24.75875,8.4764473 24.75875,7.72728063 24.2875,7.25603063 C24.0641351,7.02989342 23.7595187,6.9026152 23.4416667,6.9026152 C23.1238147,6.9026152 22.8191982,7.02989342 22.5958333,7.25603063 L10.6333333,19.2185306 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Done-/-Rounded" transform="translate(-4.000000, -6.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon/action/done_24px" fill="#91DC5A" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
