@@ -1,0 +1,149 @@
+$color-background: #f5f7f9;
+$blue: #364bd0;
+$white:#fff;
+$orage:#ff7b4f;
+$black:#a8a4a4;
+$button-price-hover:#e74d1a;
+$button-register-hover:#0f28c4;
+.background-white{
+        background-color: $white;
+
+}
+.background-price{
+    background-color: $white;
+   position: relative;
+    z-index: 101;
+    overflow: hidden;
+}
+
+.text-left{
+    float: left;
+}
+.text-right{
+    float: right;
+}
+.price-list{
+    padding-bottom: 10px;
+    background-color: $white;
+    -webkit-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
+    -moz-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
+    box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
+    .title-price{
+        padding: 0 10px;
+    }
+    p{
+        font-size: 14pt;
+        display: inline-block;
+        text-transform: uppercase;
+        color: $blue;
+        font-weight: bold;
+        
+    }
+    .second{
+            font-weight: bold;
+            font-size: 15pt;
+        }
+    hr{
+        background-color: $color-background;
+        height: 1px; 
+        border: 0;
+        clear: both;
+    }
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        color: $blue;
+        padding-top: 20px;
+    }
+    .price-list-content{
+        padding: 10px;
+        ul li{
+            list-style-image: url(../img/verification-mark.png);
+            
+            span{
+                color: $blue;
+                font-weight: bold;
+                font-size: 16pt;
+            }
+        }
+        .button-div{
+            display: block;
+            text-align: center;
+            .button-price{
+                background-color: $orage;
+                padding: 7px 40px;
+                color: $white;
+                text-decoration: none;
+                text-transform: capitalize;
+                border-radius: 5px;
+              }  
+            .button-price:hover{
+                background-color: $button-price-hover;
+            }
+        }
+    }
+   
+}
+
+.detail-price{
+    position: relative;
+    z-index: 9999;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-register{
+    background-color: $blue;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: $white;
+    border-radius: 5px;
+
+}
+.button-register:hover{
+    background-color: $button-register-hover;
+}
+.background-image{
+    background-image: url(../img/nonprofit-textute.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.position-image-asolute{
+    position: absolute;
+    z-index: 0;
+}
+.height-180{
+    height: 180px;
+}
+.padding-contact{
+    padding-top: 134px;
+}
+
+@media (min-width: 750px){
+    .decorate{
+        width: 100%;
+        position: absolute;
+        height: 500px;
+        background: $color-background;
+        top: -138px;
+        z-index: 1;
+        left: -38px;
+        transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -webkit-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -moz-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -o-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+        -ms-transform: rotate(344deg) scale(1.5) skew(-10deg) translate(-9px);
+    }
+}
+@media (min-width: 948px){
+    .padding-contact{
+        padding-top: 0px;
+    }
+}
+
+
