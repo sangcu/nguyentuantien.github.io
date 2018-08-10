@@ -2,9 +2,10 @@ $color-background: #f5f7f9;
 $blue: #364bd0;
 $white:#fff;
 $orage:#ff7b4f;
-$black:#a8a4a4;
+$grey:#a8a4a4;
+$black: #000;
 $button-price-hover:#e74d1a;
-$button-register-hover:#0f28c4;
+$button-register-hover:#000;
 .background-white{
         background-color: $white;
 
@@ -17,17 +18,23 @@ $button-register-hover:#0f28c4;
 }
 
 .text-left{
-    float: left;
+    text-align: left;
 }
 .text-right{
     float: right;
 }
+.no-margin{
+    margin:0;
+}
 .price-list{
     padding-bottom: 10px;
     background-color: $white;
-    -webkit-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
-    -moz-box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
-    box-shadow: 1px 2px 11px -1px rgba(148,146,148,1);
+    transition: box-shadow 0.5s;
+    &:hover{
+        -webkit-box-shadow: -7px 28px 106px 4px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: -7px 28px 106px 4px rgba(0, 0, 0, 0.22);
+        box-shadow: -7px 28px 106px 4px rgba(0, 0, 0, 0.22);
+    }
     .title-price{
         padding: 0 10px;
     }
@@ -35,7 +42,7 @@ $button-register-hover:#0f28c4;
         font-size: 14pt;
         display: inline-block;
         text-transform: uppercase;
-        color: $blue;
+        color: $black;
         font-weight: bold;
         
     }
@@ -52,18 +59,26 @@ $button-register-hover:#0f28c4;
     h2{
         text-align: center;
         text-transform: uppercase;
-        color: $blue;
+        color: $black;
         padding-top: 20px;
     }
     .price-list-content{
         padding: 10px;
-        ul li{
-            list-style-image: url(../img/verification-mark.png);
-            
-            span{
-                color: $blue;
-                font-weight: bold;
-                font-size: 16pt;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 10px;
+            li{
+                margin-bottom: 1.5em;
+                img{
+                    width: 14px;
+                    margin-right: 10px;
+                }
+                span{
+                    color: $black;
+                    font-weight: bold;
+                    font-size: 16pt;
+                }
             }
         }
         .button-div{

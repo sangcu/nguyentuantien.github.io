@@ -2,7 +2,7 @@
     "devDependencies": {},
     "scripts": {
         "test": "npm run scss-compile",
-        "scss-compile": "node-sass -rw css/pdp.scss -o css/",
+        "scss-compile": "node-sass -rw css -o css",
         "watch": "npm run scss-compile"
     },
     "dependencies": {
