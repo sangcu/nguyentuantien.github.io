@@ -7,11 +7,12 @@ input {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
+  background: #364bd0e0;
+  transition: opacity 0.5s;
   visibility: hidden;
   opacity: 0;
-  z-index: 99999; }
+  z-index: 99999;
+  overflow: auto; }
 
 .overlay:target {
   visibility: visible;
@@ -22,9 +23,9 @@ input {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 90%;
+  width: 100%;
   position: relative;
-  transition: all 2s ease-in-out; }
+  transition: all 0.5s ease-in; }
 
 .popup .close {
   position: absolute;
@@ -67,11 +68,11 @@ ul.list {
   margin: 0; }
 
 ul.list li {
-  background-size: 39px 35px;
+  background-size: 46px 30px;
   background-repeat: no-repeat;
   background-image: url(../img/Rounded.svg);
   line-height: 18pt;
-  background-position: 0 0;
+  background-position: 0 2px;
   padding: 5px 0px 30px 50px; }
 
 .image-discover img {
@@ -97,7 +98,8 @@ img.block1, img.block2, img.block3, img.block4, img.block-logo-one, img.block-lo
 
 @media (min-width: 771px) {
   .popup {
-    width: 35%; }
+    width: 70%;
+    max-width: 750px; }
   .position-relative {
     position: relative;
     z-index: 5; }
