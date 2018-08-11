@@ -1,42 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
-<title>Icon / Check Circle / Rounded</title>
-<desc>Created with Sketch.</desc>
-<g id="icon_x2F_action_x2F_check_x5F_circle_x5F_24px" display="none">
-</g>
-<defs>
-	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-2.293" y="-1.917" width="45.587" height="45.667">
-		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-	</filter>
-</defs>
-<mask maskUnits="userSpaceOnUse" x="-2.293" y="-1.917" width="45.587" height="45.667" id="mask-2">
-	<g filter="url(#Adobe_OpacityMaskFilter)">
-		<path id="path-1" fill="#FFFFFF" d="M20.5,1.889c-10.485,0-18.994,8.524-18.994,19.028s8.51,19.028,18.994,19.028
-			s18.994-8.524,18.994-19.028S30.985,1.889,20.5,1.889z M15.353,29.08l-6.819-6.831c-0.356-0.355-0.556-0.838-0.556-1.341
-			c0-0.503,0.2-0.986,0.556-1.341c0.741-0.742,1.937-0.742,2.678,0l5.489,5.48l13.068-13.091c0.741-0.742,1.937-0.742,2.678,0
-			c0.741,0.742,0.741,1.941,0,2.683L18.031,29.08C17.309,29.822,16.093,29.822,15.353,29.08z"/>
-	</g>
-</mask>
-<g id="_x2731_-_x2F_-Color-_x2F_-Icons-_x2F_-Selected-_x2F_-On-Surface-_x2F_-Inactive" mask="url(#mask-2)">
-	<rect id="Rectangle" x="-2.293" y="-1.917" fill="#7ED321" width="45.587" height="45.667"/>
-</g>
-<defs>
-	<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-2.293" y="-2.917" width="45.587" height="45.667">
-		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-	</filter>
-</defs>
-<mask maskUnits="userSpaceOnUse" x="-2.293" y="-2.917" width="45.587" height="45.667" id="mask-2_1_">
-	<g filter="url(#Adobe_OpacityMaskFilter_1_)">
-		<path id="path-1_1_" fill="#FFFFFF" d="M20.5,0.889c-10.485,0-18.994,8.524-18.994,19.028s8.51,19.028,18.994,19.028
-			s18.994-8.524,18.994-19.028S30.985,0.889,20.5,0.889z M15.353,28.08l-6.819-6.831c-0.356-0.355-0.556-0.838-0.556-1.341
-			c0-0.503,0.2-0.986,0.556-1.341c0.741-0.742,1.937-0.742,2.678,0l5.489,5.48l13.068-13.091c0.741-0.742,1.937-0.742,2.678,0
-			c0.741,0.742,0.741,1.941,0,2.683L18.031,28.08C17.309,28.822,16.093,28.822,15.353,28.08z"/>
-	</g>
-</mask>
-<g id="_x2731_-_x2F_-Color-_x2F_-Icons-_x2F_-Selected-_x2F_-On-Surface-_x2F_-Inactive_1_" mask="url(#mask-2_1_)">
-	<rect id="Rectangle_1_" x="-2.293" y="-2.917" fill="#7ED321" width="45.587" height="45.667"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="63px" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.5,0.0833333333 C13.71,0.0833333333 0.0833333333,13.71 0.0833333333,30.5 C0.0833333333,47.29 13.71,60.9166667 30.5,60.9166667 C47.29,60.9166667 60.9166667,47.29 60.9166667,30.5 C60.9166667,13.71 47.29,0.0833333333 30.5,0.0833333333 Z M30.5,54.8333333 C17.08625,54.8333333 6.16666667,43.91375 6.16666667,30.5 C6.16666667,17.08625 17.08625,6.16666667 30.5,6.16666667 C43.91375,6.16666667 54.8333333,17.08625 54.8333333,30.5 C54.8333333,43.91375 43.91375,54.8333333 30.5,54.8333333 Z M44.46125,17.0558333 L24.4166667,37.1004167 L16.53875,29.2529167 L12.25,33.5416667 L24.4166667,45.7083333 L48.75,21.375 L44.46125,17.0558333 Z" id="path-1"></path>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Check-Circle-/-Outlined" transform="translate(1.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#7ED321" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
 </svg>
