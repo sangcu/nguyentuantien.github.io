@@ -73,9 +73,22 @@
 .slide-item {
   cursor: pointer; }
 
+.clearfix {
+  clear: both; }
+
+.slider {
+  position: relative; }
+
+.slider div img {
+  position: absolute;
+  top: 0; }
+
+.slider .default img {
+  position: initial !important; }
+
 .slider div {
-  display: none;
-  transition: all 1s step-end; }
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
 
 .slider div.visible {
-  display: block; }
+  opacity: 1; }
